@@ -17,7 +17,7 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background-color: plum;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,5 +42,5 @@ header {
 
 .navbar a:hover,
 .navbar a.active {
-  color: purple;
+  color: #00abf0;
 }
