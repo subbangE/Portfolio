@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #081b29;
   color: #ededed;
 }
 
@@ -52,6 +51,8 @@ header {
   display: flex;
   align-items: center;
   padding: 0 10%;
+  background: url("images/home.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .home-content {
@@ -114,7 +115,7 @@ header {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: blue;
+  background-color: hotpink;
   z-index: -1;
   transition: 0.5s;
 }
@@ -172,4 +173,20 @@ header {
 
 .home-sci a:hover::before {
   width: 100%;
+}
+
+.home-imgHover {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  /* border: 2px solid red; */
+  transition: 3s;
+}
+
+.home-imgHover:hover {
+  background-color: #081b29;
+  opacity: 0.7;
 }
